@@ -1,7 +1,7 @@
 import { Box,Typography } from '@mui/material';
 import React, { useState, useEffect } from 'react';
 
-const PercentCount = () => {
+const PercentCount = ({setStartAnimation}) => {
   const [count, setCount] = useState(1);
 
   useEffect(() => {
@@ -13,13 +13,14 @@ const PercentCount = () => {
         setCount((prevCount) => prevCount + 1);
       } else {
         clearInterval(timer);
+        setStartAnimation(true);
       }
     }, interval);
 
     return () => {
       clearInterval(timer); 
     };
-  }, [count]);
+  }, [count,setStartAnimation]);
 
   return (
     <Box sx={{
