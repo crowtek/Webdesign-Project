@@ -16,7 +16,7 @@ const theme = createTheme({
       paper: '#f5f5f5',
     },
     text: {
-      primary: '#fff',
+      primary: '#',
       secondary: '#555', 
     },
   },
@@ -25,7 +25,7 @@ const theme = createTheme({
     fontSize: 18,
     color:"whtie",
     h1: {
-      fontSize: '2.2rem',
+      fontSize: '11rem',
     },
     h2: {
       fontSize: '1.8rem',

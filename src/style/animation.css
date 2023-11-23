@@ -1,0 +1,22 @@
+
+@keyframes move-up{
+    0% {
+        transform: translateY(0) rotateX(0);
+        transform-origin: 50% 0%;
+    }
+    100% {
+        transform: translateY(-100%);
+        transform-origin: 100% 100%;
+    }
+}
+
+@keyframes move-up-from-down{
+    0% {
+        transform: translateY(0) rotateX(0);
+        transform-origin: 50% 0%;
+    }
+    100% {
+        transform: translateY(-100%);
+        transform-origin: 100% 100%;
+    }
+}
