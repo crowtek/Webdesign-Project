@@ -30,9 +30,9 @@
 
 @keyframes lose-width-complete{
     0% {
-        width: 120px;
+        max-width: 150px;
     }
     100% {
-        width: 0;
+        max-width: 0;
     }
 }
