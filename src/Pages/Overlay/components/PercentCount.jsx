@@ -1,5 +1,6 @@
 import { Box,Typography } from '@mui/material';
 import React, { useState, useEffect } from 'react';
+import MovingLetter from '../../../Components/MovingLetter';
 
 const PercentCount = ({setStartAnimation}) => {
   const [count, setCount] = useState(1);
@@ -29,7 +30,7 @@ const PercentCount = ({setStartAnimation}) => {
         right:"0",
         padding:"20px",
     }}>
-      <Typography variant='h1' mt={"20px"}>{count}%</Typography>
+      <MovingLetter size={"h1"} time={0.7} letter={`${count}%`} startAnimation={count === 100 && true}>%</MovingLetter>
     </Box>
   );
 };

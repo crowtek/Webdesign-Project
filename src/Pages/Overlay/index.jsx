@@ -27,7 +27,7 @@ const Overlay = () => {
                 sx={{
                     width:"40px",
                     animation: startAnimation ? `lose-width 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both` : "none",
-                    animationDelay:"1.5s"
+                    animationDelay:"0.6s"
                 }}>
             </Typography>
             <MovingLetter letter={"G"} size={"h1"} time={0.7} double={true} startAnimation={startAnimation}/>

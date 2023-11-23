@@ -1,7 +1,7 @@
 
 @keyframes move-up{
     0% {
-        transform: translateY(0) rotateX(0);
+        transform: translateY(0);
     }
     100% {
         transform: translateY(-100%);
@@ -30,7 +30,7 @@
 
 @keyframes lose-width-complete{
     0% {
-        max-width: 150px;
+        max-width: 600px;
     }
     100% {
         max-width: 0;
