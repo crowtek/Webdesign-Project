@@ -16,19 +16,19 @@ const theme = createTheme({
       paper: '#f5f5f5',
     },
     text: {
-      primary: '#',
-      secondary: '#555', 
+      primary: '#fff',
+      secondary: '#f23', 
     },
   },
   typography: {
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-    fontSize: 18,
+    fontSize: 20,
     color:"whtie",
     h1: {
       fontSize: '11rem',
     },
     h2: {
-      fontSize: '1.8rem',
+      fontSize: '3rem',
     },
     h3: {
       fontSize: '1.4rem',

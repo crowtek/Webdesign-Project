@@ -1,4 +1,4 @@
-import { Box  } from "@mui/material";
+import { Box ,Typography,Button ,Stack } from "@mui/material";
 import "../style/animation.css";
 const NavigationBar = () => {
     return (
@@ -8,17 +8,22 @@ const NavigationBar = () => {
             right:"0",
             height:"10vh",
             width:"100%",
-            padding:"20xp",
+            padding:"4%",
             display:"flex",
             justifyContent:"space-between",
             alignItems:"center",
             animation: `move-down 1s both`,
             animationDelay:"3s",
-            color:"white",
+            color:"#fff",
         }}>
-            <Box>MG.</Box>
-            <Box>button1 button2</Box>
-            <Box>Button 3</Box>
+            <Typography variant="h2">MEIK G.</Typography>
+            <Stack spacing={2} direction="row" >
+                <Button variant="text" sx={{color:"white"}}>PROJECTE</Button>
+                <Button variant="text" sx={{color:"white"}}>ABOUT</Button>
+            </Stack>
+            <Button variant="outlined" sx={{borderRadius:"25px", color:"white", borderColor:"white"}}>
+                AVAILABLE FOR FREELANCE
+            </Button>
         </Box>
     )
 }

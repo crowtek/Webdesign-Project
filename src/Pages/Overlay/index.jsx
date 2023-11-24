@@ -23,7 +23,8 @@ const Overlay = () => {
             position:"relative",
             zIndex:"5",
             animation: startAnimation ? `lose-height 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both, hidde 1s 3s both` : "none",
-            animationDelay:"1.3s"
+            animationDelay:"1.3s",
+            color:"black"
         }}>
             <MovingLetter letter={"M"} size={"h1"} time={0.7} double={true} startAnimation={startAnimation}/>
             <MovingLetter letter={"E"} size={"h1"} time={0.6} startAnimation={startAnimation}/>
