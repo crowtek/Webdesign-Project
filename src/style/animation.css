@@ -36,3 +36,22 @@
         max-width: 0;
     }
 }
+
+
+@keyframes lose-height{
+    0% {
+        bottom: 0;
+    }
+    100% {
+        bottom: -100vh;
+    }
+}
+
+@keyframes hidde{
+    0% {
+        display: flex;
+    }
+    100% {
+        display: none;
+    }
+}

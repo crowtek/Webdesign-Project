@@ -9,6 +9,9 @@ const Overlay = () => {
 
     return (
         <Box sx={{
+            position:"absolute",
+            bottom:"0",
+            left:"0",
             height:"100vh",
             display:"flex",
             justifyContent:"center",
@@ -18,6 +21,9 @@ const Overlay = () => {
             lineHeight:"100px",
             overflow:"hidden",
             position:"relative",
+            zIndex:"5",
+            animation: startAnimation ? `lose-height 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both, hidde 1s 3s both` : "none",
+            animationDelay:"1.3s"
         }}>
             <MovingLetter letter={"M"} size={"h1"} time={0.7} double={true} startAnimation={startAnimation}/>
             <MovingLetter letter={"E"} size={"h1"} time={0.6} startAnimation={startAnimation}/>
