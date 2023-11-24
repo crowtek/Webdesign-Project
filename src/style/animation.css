@@ -55,3 +55,12 @@
         display: none;
     }
 }
+
+@keyframes move-down{
+    0% {
+        transform: translateY(-10vh);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -3,6 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import theme from "./theme";
 import { Box  } from "@mui/material";
 import "./style/scrollbar.css";
+import NavigationBar from "./Components/Navigationbar";
 
 import Overlay from "./Pages/Overlay";
 import Landing from "./Pages/Landing";
@@ -12,6 +13,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Box height={"100vh"}>
+        <NavigationBar />
         <Overlay />
         <Landing />
       </Box>
