@@ -33,6 +33,9 @@ const theme = createTheme({
     h3: {
       fontSize: '1.4rem',
     },
+    h4: {
+      fontSize: '1.2rem',
+    },
   },
   breakpoints: {
     values: {
