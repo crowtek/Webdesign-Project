@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Box } from "@mui/material";
 import Title from "./components/Title";
 import PageNumer from "../../Components/PageNumber";
+import ArrowDown from "./components/ArrowDown";
 
 const Landing = () => {
     const [startAnimation, setStartAnimation] = useState(false);
@@ -20,6 +21,7 @@ const Landing = () => {
         }}>
             <Title startAnimation={startAnimation}/>
             <PageNumer startAnimation={startAnimation}/>
+            <ArrowDown />
         </Box>
     )
 }
