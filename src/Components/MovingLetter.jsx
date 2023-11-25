@@ -15,7 +15,7 @@ const MovingLetter = ({ letter, time = 0.5, size, double, startAnimation, newLet
             
             {double && 
                 <Typography variant={size} sx={{
-                    animation: startAnimation ? `move-up-from-down 1s both` : "none",
+                    animation: startAnimation ? `move-up-from-down ${time}s both` : "none",
                 }}>
                     {newLetter ? newLetter : letter === " " ? <Typography p={"3px"}></Typography> : letter}
                 </Typography>
