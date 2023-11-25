@@ -6,7 +6,7 @@ const Landing = () => {
     const [startAnimation, setStartAnimation] = useState(false);
     setTimeout(()=>{
         setStartAnimation(true)
-    },3200);
+    },3300);
     
     return (
         <Box sx={{
