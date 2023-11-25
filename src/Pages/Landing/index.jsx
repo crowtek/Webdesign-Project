@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Box } from "@mui/material";
 import Title from "./components/Title";
+import PageNumer from "../../Components/PageNumber";
 
 const Landing = () => {
     const [startAnimation, setStartAnimation] = useState(false);
@@ -18,6 +19,7 @@ const Landing = () => {
             height:"100vh"
         }}>
             <Title startAnimation={startAnimation}/>
+            <PageNumer startAnimation={startAnimation}/>
         </Box>
     )
 }
