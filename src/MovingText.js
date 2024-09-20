@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import MovingLetter from './Components/MovingLetter';
 
-const MovingText = ({ text, size, startAnimation, double, newLetter }) => {
+const MovingText = ({ text, size, startAnimation, double = true, newLetter }) => {
   const letters = text.split('');
 
   return (
@@ -12,7 +12,7 @@ const MovingText = ({ text, size, startAnimation, double, newLetter }) => {
           letter={letter}
           size={size}
           time={1.2 + Math.random()}
-          double={true}
+          double={double}
           newLetter={newLetter}
           startAnimation={startAnimation}
         />
