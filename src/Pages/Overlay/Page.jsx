@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Box, Typography } from '@mui/material';
-import PercentCount from './components/PercentCount';
+import PercentCount from './PercentCount';
 import MovingLetter from '../../Components/MovingLetter';
 import '../../style/animation.css';
 import MovingText from '../../MovingText';

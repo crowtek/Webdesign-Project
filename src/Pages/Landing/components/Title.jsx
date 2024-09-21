@@ -9,7 +9,6 @@ const Title = ({ startAnimation }) => {
 
       <div style={{ display: 'flex' }}>
         <MovingText text='DESIGNNER  ' size='h1' startAnimation={startAnimation} />
-
         <Undertitle startAnimation={startAnimation} />
       </div>
     </>

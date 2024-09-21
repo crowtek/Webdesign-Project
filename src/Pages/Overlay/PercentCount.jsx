@@ -1,8 +1,8 @@
-import { Box,Typography } from '@mui/material';
+import { Box } from '@mui/material';
 import React, { useState, useEffect } from 'react';
-import MovingLetter from '../../../Components/MovingLetter';
+import MovingLetter from '../../Components/MovingLetter';
 
-const PercentCount = ({setStartAnimation}) => {
+const PercentCount = ({ setStartAnimation }) => {
   const [count, setCount] = useState(1);
 
   useEffect(() => {
@@ -19,18 +19,21 @@ const PercentCount = ({setStartAnimation}) => {
     }, interval);
 
     return () => {
-      clearInterval(timer); 
+      clearInterval(timer);
     };
-  }, [count,setStartAnimation]);
+  }, [count, setStartAnimation]);
 
   return (
-    <Box sx={{
-        position:"absolute",
-        bottom:"0",
-        right:"0",
-        padding:"20px",
-    }}>
-      <MovingLetter size={"h1"} time={0.7} letter={`${count}%`} startAnimation={count === 100 && true}>%</MovingLetter>
+    <Box
+      sx={{
+        position: 'absolute',
+        bottom: '0',
+        right: '0',
+        padding: '20px',
+      }}>
+      <MovingLetter size={'h1'} time={0.7} letter={`${count}%`} startAnimation={count === 100 && true}>
+        %
+      </MovingLetter>
     </Box>
   );
 };

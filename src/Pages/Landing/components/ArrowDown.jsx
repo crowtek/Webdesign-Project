@@ -1,6 +1,5 @@
 import { Box } from '@mui/material';
 import '../../../style/arrowDown.css';
-import Arrow from './arrow.png';
 
 const ArrowDown = () => {
   // Calculate the center of the circle
@@ -30,7 +29,7 @@ const ArrowDown = () => {
               fill='none'
               stroke='#fff'
               strokeWidth='0.3'></circle>
-            <image x={imageX} y={imageY} width={imageSize} height={imageSize} xlinkHref={Arrow} />
+            <image x={imageX} y={imageY} width={imageSize} height={imageSize} xlinkHref='/arrow.png' />
           </svg>
         </div>
       </div>

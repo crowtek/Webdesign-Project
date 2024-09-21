@@ -5,8 +5,8 @@ import { Box } from '@mui/material';
 import './style/scrollbar.css';
 import NavigationBar from './Components/Navigationbar';
 
-import Overlay from './Pages/Overlay';
-import Landing from './Pages/Landing';
+import Overlay from './Pages/Overlay/Page';
+import LandingPage from './Pages/Landing/Page';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Box height={'100vh'} sx={{ overflow: 'hidden' }}>
         <NavigationBar />
         <Overlay />
-        <Landing />
+        <LandingPage />
       </Box>
     </ThemeProvider>
   );
