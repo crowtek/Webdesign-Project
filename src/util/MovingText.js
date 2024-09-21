@@ -1,5 +1,5 @@
 import { Box } from '@mui/material';
-import MovingLetter from './Components/MovingLetter';
+import MovingLetter from './MovingLetter';
 
 const MovingText = ({ text, size, startAnimation, double = true, newLetter }) => {
   const letters = text.split('');

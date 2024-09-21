@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Box } from '@mui/material';
 import Title from './components/Title';
-import PageNumer from '../../Components/PageNumber';
-import ArrowDown from './components/ArrowDown';
+import PageNumer from './components/PageNumber';
+import ArrowDown from './components/ScrollArrow/ArrowDown';
 
 const LandingPage = () => {
   const [startAnimation, setStartAnimation] = useState(false);

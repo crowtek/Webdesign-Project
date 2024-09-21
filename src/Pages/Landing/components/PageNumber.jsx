@@ -1,7 +1,6 @@
 import { Box } from '@mui/material';
 import SouthOutlinedIcon from '@mui/icons-material/SouthOutlined';
-import MovingLetter from './MovingLetter';
-import '../style/animation.css';
+import MovingLetter from '../../../util/MovingLetter';
 
 const PageNumer = ({ startAnimation }) => {
   return (
@@ -9,12 +8,12 @@ const PageNumer = ({ startAnimation }) => {
       sx={{
         position: 'absolute',
         left: '8vh',
-        top: '27vh',
+        bottom: '8vh',
         display: 'flex',
         alignItems: 'center',
       }}>
       <MovingLetter
-        newLetter={'01//04 - SCROLL'}
+        newLetter={'01 / 04 - SCROLL'}
         size={'h4'}
         time={1.2}
         double={true}

@@ -1,5 +1,5 @@
 import { Box } from '@mui/material';
-import '../../../style/arrowDown.css';
+import './arrowDown.css';
 
 const ArrowDown = () => {
   // Calculate the center of the circle

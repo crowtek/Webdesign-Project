@@ -1,5 +1,5 @@
 import Undertitle from './Undertitle';
-import MovingText from '../../../MovingText';
+import MovingText from '../../../util/MovingText';
 
 const Title = ({ startAnimation }) => {
   return (

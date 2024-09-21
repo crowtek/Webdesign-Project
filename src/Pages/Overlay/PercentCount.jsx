@@ -1,6 +1,6 @@
 import { Box } from '@mui/material';
 import React, { useState, useEffect } from 'react';
-import MovingLetter from '../../Components/MovingLetter';
+import MovingLetter from '../../util/MovingLetter';
 
 const PercentCount = ({ setStartAnimation }) => {
   const [count, setCount] = useState(1);

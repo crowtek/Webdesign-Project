@@ -1,4 +1,4 @@
-import MovingText from '../../../MovingText';
+import MovingText from '../../../util/MovingText';
 
 const Undertitle = ({ startAnimation }) => {
   return (

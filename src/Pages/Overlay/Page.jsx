@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import { Box, Typography } from '@mui/material';
 import PercentCount from './PercentCount';
-import MovingLetter from '../../Components/MovingLetter';
-import '../../style/animation.css';
-import MovingText from '../../MovingText';
+import MovingLetter from '../../util/MovingLetter';
+import MovingText from '../../util/MovingText';
 
 const Overlay = () => {
   const [startAnimation, setStartAnimation] = useState(false);
