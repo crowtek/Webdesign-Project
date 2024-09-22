@@ -27,7 +27,7 @@ const theme = createTheme({
     h1: {
       fontSize: '8rem',
       '@media (max-width:1200px)': {
-        fontSize: '6vh',
+        fontSize: '5vh',
       },
     },
     h2: {

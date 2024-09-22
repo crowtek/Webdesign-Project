@@ -5,8 +5,8 @@
   & .path {
     stroke: white;
     stroke-linecap: round;
-    animation: dash 2s linear forwards;
-    animation-delay: 3.5s;
+    animation: dash 3s linear forwards;
+    animation-delay: 2.5s;
   }
 }
 

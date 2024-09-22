@@ -5,7 +5,7 @@ const MovingLetter = ({ letter, time = 0.5, size, double, startAnimation, newLet
 
   // Calculate the default height based on the size prop
   const defaultHeight = size === 'h4' ? '25px' : size === 'h3' ? '25px' : '130px';
-  const smallScreenHeight = size === 'h4' ? '15px' : '7vh';
+  const smallScreenHeight = size === 'h4' ? '15px' : '6vh';
 
   return (
     <Box

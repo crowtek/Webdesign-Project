@@ -23,9 +23,7 @@ const Overlay = () => {
         overflow: 'hidden',
         position: 'relative',
         zIndex: '5',
-        animation: startAnimation
-          ? `lose-height 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both, hidde 1s 3s both`
-          : 'none',
+        animation: startAnimation ? `lose-height 1s both, hidde 1s both` : 'none',
         animationDelay: '1.3s',
         color: 'black',
       }}>
@@ -34,7 +32,7 @@ const Overlay = () => {
       <Typography
         sx={{
           width: '40px',
-          animation: startAnimation ? `lose-width 1s cubic-bezier(0.455, 0.030, 0.515, 0.955) both` : 'none',
+          animation: startAnimation ? `lose-width 1s both` : 'none',
           animationDelay: '0.6s',
         }}></Typography>
 

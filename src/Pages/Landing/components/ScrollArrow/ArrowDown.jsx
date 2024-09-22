@@ -19,7 +19,6 @@ const ArrowDown = () => {
         left: '45%',
         bottom: '10px',
         height: '20vh',
-        // Hide when screen size is smaller than lg
         [theme.breakpoints.down('lg')]: {
           display: 'none',
         },
