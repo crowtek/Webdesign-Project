@@ -1,35 +1,23 @@
-.circle {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.circle__spinner {
+  width: 20vh;
+  height: 20vh;
+
+  & .path {
+    stroke: white;
+    stroke-linecap: round;
+    animation: dash 2s linear forwards;
+    animation-delay: 3.5s;
   }
-  .circle__item {
-    width: 200px;
-    height: 200px;
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
   }
-  .circle__spinner {
-    width: 200px;
-    height: 200px;
-    
-    & .path {
-      stroke: white;
-      stroke-linecap: round;
-      animation: dash 2s linear forwards;
-      animation-delay: 3.5s;
-    }
+
+  100% {
+    stroke-dasharray: 130, 150;
+    stroke-dashoffset: 0;
   }
-  
-  @keyframes dash {
-    0% {
-      stroke-dasharray: 1, 150;
-      stroke-dashoffset: 0;
-    }
-    
-    100% {
-      stroke-dasharray: 130, 150;
-      stroke-dashoffset: 0;
-    }
-  }
-  
+}

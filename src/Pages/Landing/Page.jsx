@@ -3,6 +3,7 @@ import { Box } from '@mui/material';
 import Title from './components/Title';
 import PageNumer from './components/PageNumber';
 import ArrowDown from './components/ScrollArrow/ArrowDown';
+import AvailableButton from '../../Components/AvailableButton';
 
 const LandingPage = () => {
   const [startAnimation, setStartAnimation] = useState(false);
@@ -16,13 +17,15 @@ const LandingPage = () => {
         color: 'white',
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
+        alignItems: { xs: 'start', lg: 'center' },
         flexDirection: 'column',
         height: '100vh',
       }}>
       <Title startAnimation={startAnimation} />
       <PageNumer startAnimation={startAnimation} />
       <ArrowDown />
+
+      <AvailableButton />
     </Box>
   );
 };

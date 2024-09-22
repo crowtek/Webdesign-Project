@@ -6,7 +6,7 @@ const theme = createTheme({
       main: '#556cd6',
     },
     secondary: {
-      main: '#19857b', 
+      main: '#19857b',
     },
     error: {
       main: '#ff0000',
@@ -17,24 +17,30 @@ const theme = createTheme({
     },
     text: {
       primary: '#fff',
-      secondary: '#f23', 
+      secondary: '#f23',
     },
   },
   typography: {
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
     fontSize: 20,
-    color:"whtie",
+    color: 'white',
     h1: {
-      fontSize: '11rem',
+      fontSize: '8rem',
+      '@media (max-width:1200px)': {
+        fontSize: '6vh',
+      },
     },
     h2: {
-      fontSize: '3rem',
+      fontSize: '3.5vh',
     },
     h3: {
       fontSize: '1.4rem',
     },
     h4: {
       fontSize: '1.2rem',
+      '@media (max-width:1200px)': {
+        fontSize: '1.5vh',
+      },
     },
   },
   breakpoints: {
