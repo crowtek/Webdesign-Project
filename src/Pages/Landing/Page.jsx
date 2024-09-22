@@ -20,12 +20,13 @@ const LandingPage = () => {
         alignItems: { xs: 'start', lg: 'center' },
         flexDirection: 'column',
         height: '100vh',
+        p: 2,
       }}>
       <Title startAnimation={startAnimation} />
       <PageNumer startAnimation={startAnimation} />
       <ArrowDown />
 
-      <AvailableButton />
+      <AvailableButton small />
     </Box>
   );
 };

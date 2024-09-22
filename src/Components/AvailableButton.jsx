@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@mui/material';
 
-const AvailableButton = (small = false) => {
+const AvailableButton = ({ small = false }) => {
   return (
     <Button
       variant='outlined'

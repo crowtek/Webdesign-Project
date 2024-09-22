@@ -8,7 +8,7 @@ const Title = ({ startAnimation }) => {
       <MovingText text='MULTI-' size='h1' startAnimation={startAnimation} />
       <MovingText text='DISCIPLINARY' size='h1' startAnimation={startAnimation} />
 
-      <Box sx={{ flexDirection: { xs: 'column', lg: 'row' }, backgroundColor: 'red' }}>
+      <Box sx={{ display: 'flex', flexDirection: { xs: 'column', lg: 'row' } }}>
         <MovingText text='DESIGNNER  ' size='h1' startAnimation={startAnimation} />
         <Undertitle startAnimation={startAnimation} />
       </Box>
