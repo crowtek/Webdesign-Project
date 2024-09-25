@@ -4,17 +4,6 @@
 
 This is a modern web design project built using React and Material UI, with animations and responsiveness integrated. The application is deployed on [Vercel](https://webdesign-project-beta.vercel.app/) and is based on designs created in [Figma](https://www.figma.com/design/z6p9FI179kUbwgmjG68C1K/Design-Project?node-id=0-1&t=fLXvnmc1hVkfOCkr-1).
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Frontend Skills Demonstrated](#frontend-skills-demonstrated)
-- [Getting Started](#getting-started)
-- [Live Demo](#live-demo)
-- [Design Reference](#design-reference)
-- [Installation](#installation)
-- [License](#license)
-
 ## Overview
 
 This project showcases advanced frontend development skills, combining interactive animations, responsive design, and UI/UX principles. It highlights how to manage complex animations and layouts with React, CSS animations, and Material UI's theming system.
